@@ -61,7 +61,7 @@ def dbus_signatures(*,
             "all type codes blacklisted, no signature possible AT ALL")
 
     if max_codes < 1:
-        raise InvalidArgument("can not have signature with 0 type codes")
+        raise InvalidArgument("can not have signature with zero type codes")
 
     if min_complete_types < 0:
         raise InvalidArgument("can not have signature of negative length")
