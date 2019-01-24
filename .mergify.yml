@@ -4,6 +4,7 @@ pull_request_rules:
       method: merge
       rebase_fallback: merge
       strict: true
+      strict_method: rebase
   conditions:
   - label!=do not merge
   - '#approved-reviews-by>=1'
