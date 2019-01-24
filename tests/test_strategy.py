@@ -18,9 +18,9 @@ from hs_dbus_signature import dbus_signatures
 
 from hs_dbus_signature._signature import _CODES
 
-settings.register_profile("tracing", deadline=None)
+settings.register_profile("tracing1", deadline=None)
 if sys.gettrace() is not None:
-    settings.load_profile("tracing")
+    settings.load_profile("tracing1")
 
 
 @strategies.composite
