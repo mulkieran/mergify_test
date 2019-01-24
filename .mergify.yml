@@ -8,5 +8,5 @@ pull_request_rules:
   conditions:
   - label!=do not merge
   - '#approved-reviews-by>=1'
-  - status-success=continuous-integration/travis-ci
+  - status-success=continuous-integration/travis-ci/pr
   name: default
