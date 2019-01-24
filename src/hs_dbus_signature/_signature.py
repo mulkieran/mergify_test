@@ -58,7 +58,7 @@ def dbus_signatures(*,
     """
     if blacklist is not None and frozenset(blacklist) >= frozenset(_CODES):
         raise InvalidArgument(
-            "all type codes blacklisted, no signature possible")
+            "all type codes blacklisted, no signature possible AT ALL")
 
     if max_codes < 1:
         raise InvalidArgument("can not have signature with 0 type codes")
